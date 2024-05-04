@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: dotted;
+}
+
+.nav_bar {
+    display: flex;
+    background-color: black;
+}
+
+.nav_bar .text {
+    font-size: 10px;
+    color: white;
+    margin: 8px 182px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav_bar ul {
+    display: flex;
+    margin-top: 3px;
+    margin-left: auto;
+    margin-right: 160px;
+}
+
+.nav_bar ul li {
+    list-style: none;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+.nav_bar ul li a {
+    font-size: 9px;
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+.nav_bar2 {
+    display: flex;
+    height: 55px;
+    background-color: #f19d4a;
+}
+
+.nav_bar2 .logo_txt {
+    margin: 14px;
+    margin-left: 180px;
+    font-size: 21px;
+    font-family: ui-rounded;
+}
+
+.nav_bar2 ul {
+    display: flex;
+    margin-left: 5px;
+    margin-top: 3px;
+    align-items: center;
+    margin-left: 18px;
+}
+
+.nav_bar2 ul li {
+    list-style: none;
+    margin: 8px;
+}
+
+.nav_bar2 ul li a {
+    font-size: 10px;
+    color: black;
+    margin: 3px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.icons {
+    display: block;
+    margin-left: auto;
+    margin-left: 363px;
+}
+
+.icons img {
+    width: 18px;
+    height: 35px;
+    margin: 11px;
+}
+
+
+
+
+.main-1 {
+    padding-top: 140px;
+    height: 241px;
+    background-image: url('../banner/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-1 .text {
+    margin-left: 179px;
+    font-size: 14px;
+    font-family: monospace;
+}
+
+.main-1 .main_text {
+    font-size: 21px;
+    margin-top: 5px;
+    margin-left: 179px;
+}
+
+.main-1 .btn button {
+    margin: 0;
+}
+
+.main-1 .btn {
+    margin-top: 30px;
+    margin-left: 179px;
+}
+
+.main-1 .btn button {
+    border-radius: 37px;
+    padding: 11px 16px;
+    background-color: #7e4cff;
+    color: white;
+    font-family: system-ui;
+    border: none;
+}
+
+
+
+.main-2{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+
+.main-2 .box{
+    margin: 71px 40px;
+    width: 231px;
+    height: 182px;
+    border: 1px solid black;
+}
+
+h4, p{
+    /* margin: 10px 12px; */
+    font-family: system-ui;
+    font-size: 13px;
+}
+
