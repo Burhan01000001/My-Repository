@@ -150,3 +150,8 @@ h4, p {
     font-family: system-ui;
     font-size: 13px;
 }
+
+.main-2 .box img{
+    width: 50px;
+    height: 50px;
+}
