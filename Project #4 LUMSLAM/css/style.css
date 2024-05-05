@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-    outline: dotted;
+    /* outline: dotted; */
 }
 
 .nav_bar {
@@ -116,7 +116,6 @@
 }
 
 .main-1 .btn {
-    display: inline;
     margin-top: 30px;
     margin-left: 179px;
 }
@@ -143,15 +142,29 @@
     width: 231px;
     height: 182px;
     border: 1px solid black;
+    border-radius: 20px;
 }
 
-h4, p {
+h4, .box p {
     margin: 10px 12px;
     font-family: system-ui;
     font-size: 13px;
 }
 
-.main-2 .box img{
-    width: 50px;
-    height: 50px;
+.main-2 .box #women{
+    width: 92px;
+    height: 117px;
+    padding-left: 68px;
+}
+
+.main-2 .box #men{
+    width: 84px;
+    height: 117px;
+    padding-left: 70px;
+}
+
+.main-2 .box #cap{
+    width: 127px;
+    height: 105px;
+    padding-left: 50px;
 }
