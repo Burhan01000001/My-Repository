@@ -141,7 +141,7 @@
     margin: 71px 40px;
     width: 231px;
     height: 182px;
-    border: 1px solid black;
+    background-color: rgba(241, 157, 74, 0.9);
     border-radius: 20px;
 }
 
